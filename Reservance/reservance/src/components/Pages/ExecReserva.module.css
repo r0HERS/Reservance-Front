@@ -1,0 +1,44 @@
+.Board {
+  margin: 40px;
+  width: 1800px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.Button{
+  background-color: white;
+}
+.Button:hover{
+  background-color:white;
+}
+
+.InfoPainel {
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.InfoPainel p {
+  margin: 5px 0;
+}
+
+.InfoPainel button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.InfoPainel button:hover {
+  color: cornflowerblue;
+}

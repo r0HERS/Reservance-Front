@@ -1,0 +1,23 @@
+.MesasSelect{
+    margin-left: 455px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    text-align: center;
+    margin: 5px;
+}
+.Board{
+    margin: 40px;
+    width: 1055.6px;
+    height: 535px;
+    border: 2px solid black;
+}
+.Button{
+    background-color: white;
+}
+.Button:hover{
+    background-color:azure;
+}
+

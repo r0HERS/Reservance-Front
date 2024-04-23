@@ -1,0 +1,77 @@
+.caixa{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa div2{
+    margin: 20px;
+    background-color: azure;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+.caixa h2{
+    text-align: center;
+    padding: 24px;
+    width: 100%;
+    background: linear-gradient(120deg, #3acbf3 0%, cornflowerblue 100%);
+}
+.caixa form{
+    padding: 18px;
+    margin-bottom: 8px;
+    position: relative;
+}
+.caixa button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .caixa button:hover {
+    color: cornflowerblue;
+  }
+.erro input{
+    border-color: red;
+    
+  }
+  .errorMessage{
+    color: red;
+  }
+/* Estilo para o container da mensagem de sucesso */
+.successMessageContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 9999; /* Certifica-se de que a mensagem apareça sobre o restante do conteúdo */
+}
+
+/* Estilo para a mensagem de sucesso */
+.successMessage {
+  background-color: #4caf50; /* Cor de fundo verde */
+  color: #fff; /* Cor do texto branco */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}

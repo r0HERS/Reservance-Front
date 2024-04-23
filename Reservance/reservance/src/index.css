@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+html, body, #root 
+{
+  background-color:azure;
+  height: 100%;
+}
+
+h1 {
+    color:black;
+  }

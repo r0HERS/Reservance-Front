@@ -1,0 +1,96 @@
+.empresa_container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #4ab4ff2f;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.texto_container {
+  flex: 1;
+  text-align: left;
+  text-indent: 1.8em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.titulo_container {
+  text-align: center;
+}
+
+.titulo_container h1 {
+  color: cornflowerblue;
+}
+
+.titulo_container h2 {
+  color: #333;
+}
+
+.imagem_container img.primeira_imagem {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid cornflowerblue;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 1;
+  border-radius: 10px;
+  margin-top: 85px;
+}
+
+.subtitulo_centralizado h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  color: #333;
+}
+
+.imagens_container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.imagem_container {
+  text-align: center;
+}
+
+.imagem_container p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.imagem_container button {
+  background-color: cornflowerblue;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.imagem_container button:hover {
+  background-color: #3886d3;
+}
+
+.imagem_container img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.informacao_container {
+  text-align: right;
+  margin-top: 20px;
+}

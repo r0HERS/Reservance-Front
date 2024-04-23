@@ -1,0 +1,13 @@
+.criarprojeto_container{
+    width: 450px;
+    margin: 0 auto;
+    
+}
+
+.criarprojeto_container h1{
+    margin-bottom: 0.5em;
+}
+
+.criarprojeto_container p{
+    color: black;
+}

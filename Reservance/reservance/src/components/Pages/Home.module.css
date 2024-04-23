@@ -1,0 +1,46 @@
+.slider-item{
+    width: 110%;
+    height: 350px;
+}
+
+.home_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.home_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home_container span{
+    color:azure;
+    padding-left: 0.3em;
+    padding-right: 0%;
+    background-color: black;
+
+}
+.home_container span1{
+    color: cornflowerblue;
+    padding-left: 0%;
+    padding-right: 0.3em;
+    background-color: black;
+
+}
+.home_container h3{
+    margin-bottom: 1.5em;
+    color:black;
+}
+
+.home_container img{
+    width: 450px;
+    margin: 2em 0;
+}
+
+.swiper{
+    max-width: 100%;
+}
