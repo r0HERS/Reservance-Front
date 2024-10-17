@@ -1,0 +1,94 @@
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.navItem a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.navItem a:hover {
+  color: red;
+}
+
+.logo {
+  height: 125px;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+/* Regras de responsividade */
+@media (max-width: 768px) {
+  .navList {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
+
+  .burgerIcon {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .bm-burger-button {
+    display: none;
+  }
+
+  .bm-cross-button {
+    height: 24px !important;
+    width: 24px !important;
+  }
+
+  .bm-cross {
+    background: white !important;
+  }
+
+  .bm-menu {
+    background: black !important;
+    padding: 2.5em 1.5em 0 !important;
+    font-size: 1.15em !important;
+  }
+
+  .bm-item-list a {
+    text-decoration: none;
+    color: white !important;
+    padding: 0.8em;
+  }
+
+  .bm-item-list a:hover {
+    color: red !important;
+  }
+
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  .menuItem {
+    color: white !important;
+    padding: 0.8em !important;
+  }
+  
+  .menuItem:hover {
+    color: red !important;
+  }
+}
