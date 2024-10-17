@@ -1,0 +1,130 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding: 2em;
+}
+
+.loginBox {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.9em;
+}
+
+p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.submitButton {
+  background-color: red;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: darkred;
+}
+
+.successMessageContainer {
+  margin-top: 1em;
+}
+
+.successMessage {
+  color: green;
+  font-size: 1em;
+}
+
+.imageContainer {
+  display: none;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: grayscale(100%);
+  border-radius: 10px;
+}
+
+/* Keyframes for animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .loginContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .imageContainer {
+    display: block;
+    flex: 1;
+    margin-left: 2em;
+    width: 1000px;
+    height: 100vh;
+  }
+
+  .loginBox {
+    flex: 1;
+  }
+
+  .backgroundImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.solucaoContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+    color: #000;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 0 0 20px;
+    color: #666;
+}
+
+.ctaButton {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #cc0000;
+}
+
+.introSection {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.introSection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.introSection p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.introImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+
+.featuresSection {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.featuresSection h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.feature {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.featureIcon {
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.feature h3 {
+    color: #000;
+}
+
+.featureImage {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.benefitsSection {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.benefitsSection h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.benefitsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.benefit h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #000;
+}
+
+.sliderSection {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.sliderSection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.slider {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sliderImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.ctaSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.ctaBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cta {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.ctaButton {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #cc0000;
+}
